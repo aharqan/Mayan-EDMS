@@ -29,6 +29,8 @@ x-mayan-container:
     # Optional volumes to access external data like staging or watch folders
     # - /opt/staging_files:/staging_files
     # - /opt/watch_folder:/watch_folder
+    - ../mayan/apps/dynamic_search:/opt/mayan-edms/lib/python3.7/site-packages/mayan/apps/dynamic_search
+   
 
 networks:
   bridge:
